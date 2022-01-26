@@ -8,6 +8,10 @@ public class Main {
         numbers.addFirst(40);
         numbers.addLast(20);
         numbers.addLast(10);
+        numbers.add(2, 15);
         System.out.println(numbers.node(3));
+        System.out.println(numbers.remove(3));
+        System.out.println(numbers.removeLast());
+        System.out.println(numbers);
     }
 }
