@@ -22,6 +22,7 @@ public class MyStack<T> {
     public static void main(String[] args) {
         MyStack<Integer> mq = new MyStack<>();
         mq.push(1);
+        System.out.println(mq);
         System.out.println(mq.isEmpty());
         System.out.println(mq.pop());
         System.out.println(mq);
