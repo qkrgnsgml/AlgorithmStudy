@@ -131,4 +131,4 @@ public class Heap {
         heapTest.pop();
         System.out.println(heapTest.heapArray);
     }
-}   
+}
